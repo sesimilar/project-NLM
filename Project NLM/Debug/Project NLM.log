@@ -1,0 +1,16 @@
+﻿Build started 2017/4/26 17:29:37.
+     1>Project "C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\Project NLM\Project NLM\Project NLM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ImageDenosing.cpp
+         ImageDenosing.cpp
+     1>c:\users\宫本敏\documents\visual studio 2013\projects\project nlm\project nlm\imagedenosing.cpp(29): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\宫本敏\documents\visual studio 2013\projects\project nlm\project nlm\imagedenosing.cpp(30): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\Project NLM\Debug\Project NLM.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\Win32" opencl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\Project NLM\Debug\Project NLM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\Project NLM\Debug\Project NLM.lib" /MACHINE:X86 Debug\demo.obj
+         Debug\ImageDenosing.obj
+         Project NLM.vcxproj -> C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\Project NLM\Debug\Project NLM.exe
+     1>Done Building Project "C:\Users\宫本敏\Documents\Visual Studio 2013\Projects\Project NLM\Project NLM\Project NLM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
